@@ -4,15 +4,16 @@
   "version": "0.1.0",
   "identifier": "com.vivinmeth.openwebui",
   "build": {
-
+    "devUrl": "http://localhost:3000",
+    "frontendDist": "http://localhost:3000"
   },
   "app": {
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "openwebui",
-        "width": 800,
-        "height": 600
+        "title": "Open WebUI",
+        "width": 1366,
+        "height": 768
       }
     ],
     "security": {
